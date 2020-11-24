@@ -79,16 +79,6 @@ function decreaseFood(){
 
   }
   
-  if(keyWentUp(UP_ARROW)){
-    
-    foodStock = foodStock;
-    dog.addImage(dogImage);
-    fill("yellow");
-    text('Thank you 🥳🥳',10,80);
-    food.x = 250;
-    food.y = 400;
-    food.scale = 0.2;
-    
-  }
+  
 }
 
